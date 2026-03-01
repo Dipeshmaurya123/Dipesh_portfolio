@@ -1,4 +1,5 @@
 import React from "react";
+import profilePic from "../assets/Dipesh_photo.jpeg";
 
 function Home() {
   return (
@@ -44,12 +45,12 @@ function Home() {
 
             {/* Profile Image */}
             <img
-              src="https://i.pinimg.com/736x/91/50/5c/91505c4897e29ba95c802845473669a1.jpg"
-              alt="Profile"
-              className="w-[85%] h-[85%] object-cover rounded-full z-10 
-                         transition duration-500 
-                         group-hover:scale-105 
-                         group-hover:shadow-[0_0_60px_15px_rgba(34,211,238,0.6)]"
+              src={profilePic}
+              alt="Dipesh Maurya"
+              className="w-full h-full object-cover object-top rounded-full z-10 
+             transition duration-500 
+             group-hover:scale-105 
+             group-hover:shadow-[0_0_60px_15px_rgba(34,211,238,0.6)]"
             />
           </div>
         </div>
